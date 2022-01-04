@@ -35,7 +35,7 @@ namespace ChallengeSaul
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnGuardar = new System.Windows.Forms.Button();
-            this.Gráfica = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.Grafica = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label1 = new System.Windows.Forms.Label();
             this.nudNumero = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,7 +46,7 @@ namespace ChallengeSaul
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Gráfica)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Grafica)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumero)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,7 +70,7 @@ namespace ChallengeSaul
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.Gráfica);
+            this.groupBox2.Controls.Add(this.Grafica);
             this.groupBox2.Controls.Add(this.btnGuardar);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(253, 0);
@@ -90,26 +90,26 @@ namespace ChallengeSaul
             this.btnGuardar.Text = "Guardar imagen";
             this.btnGuardar.UseVisualStyleBackColor = true;
             // 
-            // Gráfica
+            // Grafica
             // 
-            this.Gráfica.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Grafica.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             chartArea1.Name = "ChartArea1";
-            this.Gráfica.ChartAreas.Add(chartArea1);
-            this.Gráfica.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Grafica.ChartAreas.Add(chartArea1);
+            this.Grafica.Dock = System.Windows.Forms.DockStyle.Fill;
             legend1.Enabled = false;
             legend1.Name = "Legend1";
-            this.Gráfica.Legends.Add(legend1);
-            this.Gráfica.Location = new System.Drawing.Point(3, 22);
-            this.Gráfica.Name = "Gráfica";
-            this.Gráfica.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
+            this.Grafica.Legends.Add(legend1);
+            this.Grafica.Location = new System.Drawing.Point(3, 22);
+            this.Grafica.Name = "Grafica";
+            this.Grafica.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
-            this.Gráfica.Series.Add(series1);
-            this.Gráfica.Size = new System.Drawing.Size(665, 450);
-            this.Gráfica.TabIndex = 1;
-            this.Gráfica.TabStop = false;
-            this.Gráfica.Text = "chart1";
+            this.Grafica.Series.Add(series1);
+            this.Grafica.Size = new System.Drawing.Size(665, 450);
+            this.Grafica.TabIndex = 1;
+            this.Grafica.TabStop = false;
+            this.Grafica.Text = "chart1";
             // 
             // label1
             // 
@@ -216,7 +216,7 @@ namespace ChallengeSaul
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Gráfica)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Grafica)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumero)).EndInit();
             this.ResumeLayout(false);
 
@@ -228,7 +228,7 @@ namespace ChallengeSaul
         private System.Windows.Forms.NumericUpDown nudNumero;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart Gráfica;
+        private System.Windows.Forms.DataVisualization.Charting.Chart Grafica;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
