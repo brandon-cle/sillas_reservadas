@@ -10,3 +10,16 @@ C:\Users\Brandon Lenin Cajina\source\repos\ChallengeSaul\ChallengeSaul\obj\Debug
 C:\Users\Brandon Lenin Cajina\source\repos\ChallengeSaul\ChallengeSaul\obj\Debug\ChallengeSaul.csproj.AssemblyReference.cache
 C:\Users\Brandon Lenin Cajina\source\repos\ChallengeSaul\ChallengeSaul\obj\Debug\ChallengeSaul.Form1.resources
 C:\Users\Brandon Lenin Cajina\source\repos\ChallengeSaul\ChallengeSaul\obj\Debug\ChallengeSaul.Show.resources
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\bin\Debug\ChallengeSaul.exe.config
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\bin\Debug\ChallengeSaul.exe
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\bin\Debug\ChallengeSaul.pdb
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\obj\Debug\ChallengeSaul.csproj.AssemblyReference.cache
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\obj\Debug\ChallengeSaul.Form1.resources
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\obj\Debug\ChallengeSaul.Frm_Luis.resources
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\obj\Debug\ChallengeSaul.Properties.Resources.resources
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\obj\Debug\ChallengeSaul.Show.resources
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\obj\Debug\ChallengeSaul.User_Control.uc_seat.resources
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\obj\Debug\ChallengeSaul.csproj.GenerateResource.cache
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\obj\Debug\ChallengeSaul.csproj.CoreCompileInputs.cache
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\obj\Debug\ChallengeSaul.exe
+C:\Users\HP 14\Desktop\Archivos_Temporales\sillas_reservadas\ChallengeSaul\obj\Debug\ChallengeSaul.pdb
