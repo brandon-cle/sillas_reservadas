@@ -15,6 +15,7 @@ namespace ChallengeSaul
         public Frm_Luis()
         {
             InitializeComponent();
+            nudNumero.Maximum = Int32.MaxValue;
         }
     }
 }
