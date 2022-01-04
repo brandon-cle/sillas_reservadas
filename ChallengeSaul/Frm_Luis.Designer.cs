@@ -138,6 +138,7 @@ namespace ChallengeSaul
             0,
             0,
             0});
+            this.nudNumero.ValueChanged += new System.EventHandler(this.nudNumero_ValueChanged);
             // 
             // label2
             // 

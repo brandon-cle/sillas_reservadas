@@ -14,12 +14,9 @@ namespace ChallengeSaul
     public partial class Frm_Luis : Form
     {
         List<int> EjeY = new List<int>();
-        List<int> EjeX = new List<int>();
-
         public Frm_Luis()
         {
             InitializeComponent();
-            nudNumero.Maximum = Int32.MaxValue;
         }
 
         private void sincronizandoListasConGrafico()
@@ -32,9 +29,14 @@ namespace ChallengeSaul
             Series s;
             for (int i = 0; i < EjeY.Count; i++)
             {
-                s = Grafica.Series.Add(EjeX.ElementAt(i).ToString());
+                s = Grafica.Series.Add(i.ToString());
                 s.Points.Add(EjeY.ElementAt(i));
             }
+        }
+
+        private void ObtenerLista()
+        {
+            
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -58,6 +60,12 @@ namespace ChallengeSaul
                 }
                 fs.Close();
             }
+        }
+
+        private void nudNumero_ValueChanged(object sender, EventArgs e)
+        {
+            ObtenerLista();
+            sincronizandoListasConGrafico();
         }
     }
         
