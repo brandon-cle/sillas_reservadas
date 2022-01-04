@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChallengeSaul.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,9 +35,10 @@ namespace ChallengeSaul
             }
         }
 
-        private void ObtenerLista()
+        private void ObtenerLista(int n)
         {
-            
+            Collatz.number_collatz(n);
+            EjeY = Collatz.y_axis;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -64,7 +66,7 @@ namespace ChallengeSaul
 
         private void nudNumero_ValueChanged(object sender, EventArgs e)
         {
-            ObtenerLista();
+            ObtenerLista(Int32.Parse(nudNumero.Value.ToString()));
             sincronizandoListasConGrafico();
         }
     }

@@ -68,6 +68,7 @@
       <DependentUpon>Frm_Luis.cs</DependentUpon>
     </Compile>
     <Compile Include="JustInfo.cs" />
+    <Compile Include="Model\Collatz.cs" />
     <Compile Include="Model\MSeatcs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

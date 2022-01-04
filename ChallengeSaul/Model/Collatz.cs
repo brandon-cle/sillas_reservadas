@@ -18,7 +18,7 @@ namespace ChallengeSaul.Model
         //////////////////////////////////////
         
         //Function to giving a value to the object attributes 
-        public void number_collatz(int n)
+        public static void number_collatz(int n)
         {
             par_count = 0;
             impar_count = 0;
