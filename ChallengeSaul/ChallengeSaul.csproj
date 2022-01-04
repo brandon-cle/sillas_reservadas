@@ -54,6 +54,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Brandon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Brandon.Designer.cs">
+      <DependentUpon>Frm_Brandon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Luis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Luis.Designer.cs">
+      <DependentUpon>Frm_Luis.cs</DependentUpon>
+    </Compile>
     <Compile Include="JustInfo.cs" />
     <Compile Include="Model\MSeatcs.cs" />
     <Compile Include="Program.cs" />
