@@ -9,18 +9,20 @@ namespace ChallengeSaul.Model
     class Collatz
     {
         //Making object, finally it's an object
-        int number;
-        int par_count;
-        int impar_count;
-        int count = 0;
+        public static int number;
+        public static int par_count;
+        public static int impar_count;
+        public static int count;
         //Data to graph
-        List<int> y_axis = new List<int>();
+        public static List<int> y_axis = new List<int>();
         //////////////////////////////////////
         
         //Function to giving a value to the object attributes 
         public void number_collatz(int n)
         {
-            
+            par_count = 0;
+            impar_count = 0;
+            y_axis.Clear();
             #region validating detail
             //just postive numbers
             if (n < 1)
@@ -43,16 +45,9 @@ namespace ChallengeSaul.Model
                     n = 3 * n + 1;
                     impar_count++;
                 }
-
-                count = count + 1;
                 y_axis.Add(n);
             }
-
-        }
-
-        public List<int> Give_List()
-        {
-            return y_axis;
+            count = par_count + impar_count;
         }
     }
 }
