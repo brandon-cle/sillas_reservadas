@@ -36,5 +36,29 @@ namespace ChallengeSaul
                 s.Points.Add(EjeY.ElementAt(i));
             }
         }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "JPeg Imagen/*.jpg/PNG Imagen/*.png";
+            saveFileDialog.Title = "Guardar gráfico como imagen";
+            saveFileDialog.ShowDialog();
+            if (saveFileDialog.FileName != "")
+            {
+                System.IO.FileStream fs = (System.IO.FileStream)saveFileDialog.OpenFile();
+                switch (saveFileDialog.FilterIndex)
+                {
+                    case 1:
+                        Grafica.SaveImage(fs, ChartImageFormat.Jpeg);
+                        break;
+                   
+                    case 2:
+                        Grafica.SaveImage(fs, ChartImageFormat.Png);
+                        break;
+                }
+                fs.Close();
+            }
+        }
     }
+        
 }
