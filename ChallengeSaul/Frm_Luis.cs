@@ -12,6 +12,8 @@ namespace ChallengeSaul
 {
     public partial class Frm_Luis : Form
     {
+        List<int> EjeY = new List<int>();
+        List<int> EjeX = new List<int>();
         public Frm_Luis()
         {
             InitializeComponent();
