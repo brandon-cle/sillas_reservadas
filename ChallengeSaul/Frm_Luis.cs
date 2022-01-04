@@ -40,7 +40,7 @@ namespace ChallengeSaul
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Filter = "JPeg Imagen/*.jpg/PNG Imagen/*.png";
+            saveFileDialog.Filter = "JPeg Imagen|*.jpg|PNG Imagen|*.png";
             saveFileDialog.Title = "Guardar gráfico como imagen";
             saveFileDialog.ShowDialog();
             if (saveFileDialog.FileName != "")
