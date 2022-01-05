@@ -27,11 +27,12 @@ namespace ChallengeSaul
                 Grafica.Series.Clear();
             }
 
-            Series s;
+            
             for (int i = 0; i < EjeY.Count; i++)
             {
-                s = Grafica.Series.Add(i.ToString());
-                s.Points.Add(EjeY.ElementAt(i));
+                Grafica.Series.Add($"Series{i+1}");
+                Grafica.Series["Series1"].Points.AddXY(i+1, EjeY.ElementAt(i));
+           
             }
         }
 
@@ -39,6 +40,10 @@ namespace ChallengeSaul
         {
             Collatz.number_collatz(n);
             EjeY = Collatz.y_axis;
+            lbl2n.Text = Collatz.par_count + "";
+            lbl3n1.Text = Collatz.impar_count + "";
+            lblTotal.Text = Collatz.count + "";
+
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
